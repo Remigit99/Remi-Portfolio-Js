@@ -16,6 +16,7 @@
 
     --clr-white: hsl(0, 0%, 100%);
     --clr-black: hsl(0, 0%, 0%);
+    --clr-bg1: #002b53;
     --clr-bg: #21272F;
     --clr-bg2: #1C383A;
     --clr-primary: #4db5ff;
@@ -89,6 +90,7 @@ p {
 
 body {
     background-color: var(--clr-bg);
+    background-color: var(--clr-bg1);
     color: var(--clr-white);
     overflow-x: hidden;
     line-height: 1.4;
@@ -329,6 +331,146 @@ section h4:nth-child(1) {
 
 .code-demo a:hover {
     color: var(--clr-light);
+}
+
+
+/*================= TESTIMONIALS SECTION ===========*/
+
+#testimonials {
+    margin: 4rem 0;
+}
+
+.testimonial__header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.testimonial__header h4 {
+    color: var(--color-light);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    align-self: center;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    background-color: var(--color-primary-variant);
+    /* height: 300px; */
+    /* border-radius: 1rem; */
+}
+
+
+
+.client__header {
+    padding: .5rem 0;
+}
+
+.client__header h5 {
+    padding: 1rem 0;
+}
+
+.client__img {
+    width: 5rem;
+    border-radius: 50%;
+    border: 3px solid var(--color-primary-variant);
+    margin: 0 auto;
+}
+
+.testimonial p {
+    text-align: center;
+    color: var(--color-light);
+}
+
+
+/*================== CONTACT ======================*/
+
+.contact__container {
+    padding: 3rem 0;
+}
+
+.contact__header {
+    text-align: center;
+}
+
+.contact__content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3.5rem;
+    padding: 4rem 2rem;
+}
+
+.contact__left,
+.contact__right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact__info {
+    background-color: var(--clr-bg);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+
+}
+
+.contact__info a {
+    color: var(--clr-primary);
+}
+
+.contact__info p {
+    padding: .4rem 0;
+}
+
+.name,
+.mail,
+textarea {
+    padding: .7rem .2rem;
+    background-color: transparent;
+    box-shadow: 0 0 2px var(--clr-light);
+    border-radius: .5rem;
+    color: var(--color-white);
+    font: inherit;
+    resize: none;
+}
+
+.name:focus,
+.mail:focus,
+textarea:focus {
+    box-shadow: 0 0 2px var(--clr-white);
+
+}
+
+.name::placeholder,
+.mail::placeholder,
+textarea::placeholder {
+    color: var(--color-light);
+}
+
+button[type="submit"] {
+    padding: .5rem;
+    border-radius: .5rem;
+    background-color: var(--clr-primary);
+    color: var(--clr-bg);
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: var(--transition);
+    width: max-content;
+    font: inherit;
+    font-weight: 600;
+}
+
+button[type="submit"]:hover {
+    background-color: transparent;
+    color: var(--clr-white);
+    border: 1px solid var(--clr-light);
+
 }
 
 
