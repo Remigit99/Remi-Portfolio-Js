@@ -678,6 +678,13 @@ button[type="submit"]:hover {
     }
 
 
+    .my_header_img-1 {
+        width: 15rem;
+        height: 18rem;
+        border-radius: 15rem 15rem 0 0;
+    }
+
+
     /*=======++===== ABOUT ME ======++===*/
 
     .about__main {
