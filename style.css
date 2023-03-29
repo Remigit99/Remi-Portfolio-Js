@@ -684,6 +684,22 @@ button[type="submit"]:hover {
         border-radius: 15rem 15rem 0 0;
     }
 
+    .header__socials {
+        display: none;
+    }
+
+    .stack {
+        position: absolute;
+        right: 50%;
+        bottom: -3rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 1rem;
+        transform: translateX(50%);
+        z-index: 10;
+    }
+
 
     /*=======++===== ABOUT ME ======++===*/
 
