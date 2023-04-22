@@ -646,7 +646,6 @@ button[type="submit"]:hover {
 
     .container {
         width: var(--container-width-sm);
-
     }
 
 
@@ -728,17 +727,21 @@ button[type="submit"]:hover {
         place-items: center;
     }
 
+    .my__projects article:nth-child(2),
+    .my__projects article:nth-child(4) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     /*==========++===== TESTIMONIALS SECTION =====++=====*/
 
     #testimonials {
         margin: 1rem 0;
     }
 
-    .testimonial:first-child {
-        background-color: red;
-        /* display: none; */
+    /* .testimonial:first-child {
         flex-direction: column-reverse;
-    }
+    } */
 
     .testimonial p {
         text-align: center;
