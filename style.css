@@ -35,7 +35,7 @@
 
 
     /*========== Transition =========== */
-    --transition: all 350ms ease;
+    --transition: all 400ms ease-in-out;
 
 }
 
@@ -307,7 +307,7 @@ section h4:nth-child(1) {
 .project__right img {
     width: 25rem;
     border-radius: 2rem;
-    border: 5px solid var(--clr-bg2);
+    border: 5px solid var(--clr-primary);
     transition: var(--transition);
 }
 
@@ -326,15 +326,16 @@ section h4:nth-child(1) {
 }
 
 .code-demo a {
-    background-color: var(--clr-bg2);
-    color: var(--clr-white);
+    background-color: var(--clr-primary);
+    color: var(--clr-bg-2-1);
     padding: 0.5rem 1rem;
     border-radius: 2rem;
     transition: var(--transition);
 }
 
 .code-demo a:hover {
-    color: var(--clr-light);
+    background: var(--clr-primary-variant);
+    color: var(--clr-white);
 }
 
 
@@ -731,6 +732,12 @@ button[type="submit"]:hover {
 
     #testimonials {
         margin: 1rem 0;
+    }
+
+    .testimonial:first-child {
+        background-color: red;
+        /* display: none; */
+        flex-direction: column-reverse;
     }
 
     .testimonial p {
