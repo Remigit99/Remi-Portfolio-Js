@@ -45,6 +45,10 @@ html {
     scroll-behavior: smooth;
 }
 
+/* body::-webkit-scrollbar {
+    width: 3rem;
+} */
+
 section {
     padding: 5rem 0;
 }
