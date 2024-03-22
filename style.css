@@ -101,7 +101,7 @@ body {
     overflow-x: hidden;
     line-height: 1.4;
     font-family: 'Mulish', sans-serif;
-    min-height: 100vh;
+    min-height: 100dvh;
     max-width: 1500px;
 }
 
