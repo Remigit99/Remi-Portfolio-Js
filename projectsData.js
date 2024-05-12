@@ -5,7 +5,7 @@
 export const projectData = [
 
 {
-    // id : 1
+    id : 1,
     name:  "RemsMoviePlus Responsive Website",
     thumbnail : "./assets/Movies-shot.png",
     description: " RemsMoviePlus is a responsive website where you can search for the latest movies. I build this website using React Js and SCSS.",
@@ -15,9 +15,9 @@ export const projectData = [
 },
 
 {
-    // id : 1
+    id : 2,
     name:  "React Note App",
-    thumbnail : "./assets/Note-App.png",
+    thumbnail : "./assets/Note-App-shot.png",
     description: " React Note App is an app that can be used to take note(s). You can update (edit) and delete note(s). Also, Your notes are saved to the local storage. This app is build using React Js, react-router, localStorage and styled with SCSS.",
     codeLink: "https://github.com/Remigit99/MyNote-App",
     liveWebLink : "https://note-app-new.netlify.app",
@@ -25,7 +25,7 @@ export const projectData = [
 },
 
 {
-    // id : 1
+    id : 3,
     name:  "Remi Multipage School Website",
     thumbnail : "./assets/remschool.png",
     description: " Remi Multipage School website shows the different courses students can learn. This was developed using HTML5, CSS3, FormSpree for Form (Contact) Submission, and JavaScript.",
@@ -34,7 +34,7 @@ export const projectData = [
     altTexet:  "remschool shot"
 },
 {
-    // id : 1
+    id : 4,
     name:  "Mirko Broadband Responsive Website",
     thumbnail : "./assets/Mirko-Clone-shot.png",
     description: "Mirko is a Broadband Internet service provider. This is a clone of their website using HTML5, CSS3, FormSpree for Form (Contact) Submission, and JavaScript.",
@@ -43,7 +43,7 @@ export const projectData = [
     altTexet:  "Mirko-Clone-shot"
 },
 {
-    // id : 1
+    id : 5,
     name:  "Yavin Inc Clone",
     thumbnail : "./assets/yavin-Inc.png",
     description: "Yavin Inc helps offices and company decorate and manage their workspace. I built the website using HTML,CSS and deployed it on Vercel.",
@@ -52,7 +52,7 @@ export const projectData = [
     altTexet:  "Yavin-Inc"
 },
 {
-    // id : 1
+    id : 6,
     name:  "Avid",
     thumbnail : "./assets/avid-shot.png",
     description: "Avid is a website analytics tool packed with features designed to help you understand your website traffic and improve it.",
