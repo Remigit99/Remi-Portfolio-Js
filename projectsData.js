@@ -48,7 +48,7 @@ export const projectData = [
     name: "React Note App",
     thumbnail: "./assets/Note-App-shot.png",
     description:
-      " React Note App is an app that can be used to take note(s). You can update (edit) and delete note(s). Also, Your notes are saved to the local storage. This app is build using React Js, react-router, localStorage and styled with SCSS.",
+      " React Note App is an app that can be used to take note(s). You can update (edit) and delete note(s). Also, Your notes are saved to the local storage. This app is built using React Js, react-router, localStorage and styled with SCSS.",
     codeLink: "https://github.com/Remigit99/MyNote-App",
     liveWebLink: "https://note-app-new.netlify.app",
     altTexet: "note app",
@@ -59,7 +59,7 @@ export const projectData = [
     name: "RemsMoviePlus Responsive Website",
     thumbnail: "./assets/Movies-shot.png",
     description:
-      " RemsMoviePlus is a responsive website where you can search for the latest movies. I build this website using React Js and SCSS.",
+      " RemsMoviePlus is a responsive website where you can search for the latest movies. I built this website using React Js and SCSS.",
     codeLink: "https://github.com/Remigit99/RemsMoviePlus",
     liveWebLink: "https://remsmovieplus.netlify.app",
     altTexet: "Movie-shot",
