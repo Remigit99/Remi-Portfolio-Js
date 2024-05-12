@@ -36,7 +36,6 @@
 
     /*========== Transition =========== */
     --transition: all 400ms ease-in-out;
-
 }
 
 /*================= General settings ===========*/
@@ -100,7 +99,7 @@ body {
     color: var(--clr-white);
     overflow-x: hidden;
     line-height: 1.4;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Jost', sans-serif;
     min-height: 100dvh;
     max-width: 1500px;
     position: relative;
@@ -403,7 +402,9 @@ section h4:nth-child(1) {
 
 /*================== CONTACT ======================*/
 
-
+#contact{
+    padding-bottom: 14rem;
+}
 
 .contact__header {
     text-align: center;
