@@ -103,6 +103,7 @@ body {
     font-family: 'Mulish', sans-serif;
     min-height: 100dvh;
     max-width: 1500px;
+    position: relative;
 }
 
 p {
@@ -490,6 +491,11 @@ button[type="submit"]:hover {
     color: var(--clr-white);
     padding: 2rem 0 .5rem;
     border-radius: 2rem 2rem 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 10rem;
 }
 
 .footer__links {
