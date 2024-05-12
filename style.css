@@ -404,6 +404,7 @@ section h4:nth-child(1) {
 /*================== CONTACT ======================*/
 
 
+
 .contact__header {
     text-align: center;
 }
@@ -489,13 +490,13 @@ button[type="submit"]:hover {
 .footer {
     background-color: var(--clr-bg-2-1);
     color: var(--clr-white);
-    padding: 2rem 0 .5rem;
+    padding: 1rem 0 .2rem;
     border-radius: 2rem 2rem 0 0;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
 }
 
 .footer__links {
@@ -763,6 +764,9 @@ button[type="submit"]:hover {
 
     /*================== CONTACT ======================*/
 
+    #contact{
+        padding-bottom: 23rem;
+    }
     .contact__container {
         padding: 0.5rem 0;
     }
@@ -774,9 +778,16 @@ button[type="submit"]:hover {
     /*================== FOOTER ======================*/
 
     .footer__links {
+        /* display: grid;
+        grid-template-columns: repeat(2, 1fr); */
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 2rem;
+        gap: 1rem;
+        place-items: center;
+    }
+
+    .footer__socials {
+        padding: 0.8rem 0;
     }
 
     .footer__socials a {
