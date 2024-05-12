@@ -15,7 +15,7 @@ document.querySelector("form").onsubmit = (e) => {
 const myProjects = document.querySelector(".my__projects");
 const project = document.querySelector(".project");
 
-const projectEl = projectData
+const projectEl = projectData.reverse()
   .map(
     ({ name, thumbnail, description, codeLink, liveWebLink, altText, id }) => {
       let articleElOdd = `
