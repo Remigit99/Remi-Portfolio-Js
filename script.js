@@ -1,4 +1,4 @@
-import { projectData } from "./projectsData.js";
+import { projectData, testmonialData } from "./projectsData.js";
 
 AOS.init({
   duration: 1500,
@@ -15,7 +15,8 @@ document.querySelector("form").onsubmit = (e) => {
 const myProjects = document.querySelector(".my__projects");
 const project = document.querySelector(".project");
 
-const projectEl = projectData.reverse()
+const projectEl = projectData
+  .reverse()
   .map(
     ({ name, thumbnail, description, codeLink, liveWebLink, altText, id }) => {
       let articleElOdd = `
@@ -84,7 +85,7 @@ const projectEl = projectData.reverse()
         </article>
          `;
 
-        let articleShow = id % 2  === 0 ? articleElEven : articleElOdd
+      let articleShow = id % 2 === 0 ? articleElEven : articleElOdd;
 
       return articleShow;
     }
@@ -92,3 +93,27 @@ const projectEl = projectData.reverse()
   .join("");
 
 myProjects.innerHTML = projectEl;
+
+/*============  Testimonials =========*/
+
+const testimonialEl = document.querySelector(".testimonials");
+
+const testimonialsEl = testmonialData.map(
+  ({ img, altTexet, name, statement }) => {
+    let testimonialItem = `
+    
+    <article class="testimonial swiper-slide">
+      <div class="client__header">
+          <img src=${img} alt=${altTexet} class="client__img">
+          <h5>${name}</h5>
+      </div>
+
+      <p>${statement}</p>
+    </article>
+    `;
+
+    return testimonialItem;
+  }
+);
+
+testimonialEl.innerHTML = testimonialsEl

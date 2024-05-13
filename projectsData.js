@@ -75,3 +75,34 @@ export const projectData = [
     altTexet: "Movie-shot",
   },
 ];
+
+
+export const testmonialData = [
+
+  {
+    id: 1,
+   img: "./assets/Ridwan.png",
+   altTexet: "Ridwan",
+   name: "Ilelaboye Ridwan",
+   statement : "Working with Aderemi Abiodun has been a pleasure. His attention to details and ability to create visually stunning designs is unmatched."
+
+  },
+
+  {
+    id: 2,
+   img: "./assets/Mr-Mutolib.png",
+   altTexet: "Mutolib",
+   name: "Akinleye Mutolib",
+   statement : "If you're looking for a frontend developer who is highly skilled and reliable, then Abiodun is the person you want on your team"
+
+  },
+
+  {
+    id: 3,
+   img: "./assets/Adeola.png",
+   altTexet: "Oyelami Adeola",
+   name: "Oyelami Adeola",
+   statement : "I highly recommend Aderemi for anyone looking for a frontend developer who is passionate about their work, highly skilled, and able to consistently deliver outstanding results."
+
+  },
+]
