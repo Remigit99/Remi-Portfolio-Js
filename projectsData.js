@@ -74,6 +74,16 @@ export const projectData = [
     liveWebLink: "https://my-github-app-nine.vercel.app/",
     altTexet: "Movie-shot",
   },
+
+  {
+    id: 8,
+    name: "EchoMed",
+    thumbnail: "./assets/EchoMed-App-Shot_new.png",
+    description:"EchMed is a TeleMedicine App that connects parent/guardian with experienced and professional pediatricians from the comfort of their home. The app was built with Next Js and Firebase.",
+    codeLink: "https://github.com/Remigit99/EchoMed",
+    liveWebLink: "https://echomed.netlify.app/",
+    altTexet: "EchoMed-App-shot",
+  },
 ];
 
 
