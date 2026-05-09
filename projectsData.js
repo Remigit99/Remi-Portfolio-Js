@@ -46,7 +46,7 @@ export const projectData = [
     id: 5,
     name: "Healthly",
     thumbnail: "./assets/Healthly_new_hp.png",
-    description:"Healthly is a TeleMedicine App that connects parent/guardian with experienced and professional pediatricians from the comfort of their home. The app was built with Next Js and Firebase.",
+    description:"Healthly is a TeleMedicine App that connects parent/guardian with experienced and professional pediatricians from the comfort of their home. The app was built with React Js, Tailwind CSS, Reduxtoolkit, Node Js, Express Js and MongoDB.",
     codeLink: "https://github.com/Remigit99/Healthly",
     liveWebLink: "https://healthlyapp.netlify.app/",
     altText: "Healthly-App-shot",
