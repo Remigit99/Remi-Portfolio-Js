@@ -1,4 +1,4 @@
-import { projectData, testmonialData } from "./projectsData.js";
+import { projectData } from "./projectsData.js";
 
 AOS.init({
   duration: 1500,
@@ -94,26 +94,4 @@ const projectEl = projectData
 
 myProjects.innerHTML = projectEl;
 
-/*============  Testimonials =========*/
 
-const testimonialEl = document.querySelector(".testimonials");
-
-const testimonialsEl = testmonialData.map(
-  ({ img, altTexet, name, statement }) => {
-    let testimonialItem = `
-    
-    <article class="testimonial swiper-slide">
-      <div class="client__header">
-          <img src=${img} alt=${altTexet} class="client__img">
-          <h5>${name}</h5>
-      </div>
-
-      <p>${statement}</p>
-    </article>
-    `;
-
-    return testimonialItem;
-  }
-);
-
-testimonialEl.innerHTML = testimonialsEl
