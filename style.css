@@ -91,6 +91,7 @@ h6 {
 p {
     font-size: 1rem;
     color: var(--clr-grey);
+    font-family: "nunito", sans-serif;
 }
 
 body {
